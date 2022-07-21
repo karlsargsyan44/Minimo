@@ -1,0 +1,17 @@
+.button{
+  margin-top: 120px;
+  text-align: center;
+  &__link{
+    font-size: $fz20;
+    line-height: 24px;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+    text-decoration: none;
+    padding:10px 20px;
+    border: 1px solid $menu;
+    &:hover{
+      background-color: $background;
+    }
+  }
+}

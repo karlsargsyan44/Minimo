@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: $ff;
+  font-size: $fz16;
+  color: $primary;
+  background-color: $secondary;
+}
+html{
+  scroll-behavior: smooth;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container{
+  width: 100%;
+  max-width: 1065px;
+  margin: 0 auto;
+}
+
+.clear{
+  clear: both;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}

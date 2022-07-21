@@ -1,0 +1,30 @@
+@media  screen and (max-width : 767px) {
+  .logo{
+    padding: 50px 0 50px 20px;
+  }
+  .nav{
+    position: absolute;
+    top: -100%;
+  }
+  .dropdown{
+    display: block;
+  }
+  .header__banner{
+    background-position: top center;
+  }
+
+  .block{
+    padding: 20px;
+    width: 100%;
+    clear: both;
+    &__img{
+      width: 100%;
+    }
+  }
+  .post{
+    padding: 20px;
+  }
+  .footer{
+    padding: 40px 40px;
+  }
+}

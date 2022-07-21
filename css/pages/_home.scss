@@ -1,0 +1,112 @@
+.header__banner{
+  margin: 50px 0;
+  width: 100%;
+  height: 550px;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: top left;
+}
+.post{
+  &__link{
+    display: inline-block;
+    font-size: $fz14;
+    color: $post;
+    font-weight: 300;
+    font-family: $fu;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 25px;
+  }
+  &__heading{
+    font-size: $fz30;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+    margin-bottom: 35px;
+  }
+  &__par{
+    font-size: $fz14;
+    line-height: 24px;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+    margin-bottom: 50px;
+  }
+}
+.block{
+  width: 45%;
+  margin-top: 100px;
+  margin-right: 100px;
+  float: left;
+  &:nth-child(3), &:nth-child(5), &:last-child{
+    margin-right: 0;
+  }
+  &__img{
+    width: 100%;
+  }
+  &__link{
+    display: inline-block;
+    font-size: $fz14;
+    color: $post;
+    font-weight: 300;
+    font-family:$fu;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 30px 0;
+  }
+  &__heading{
+    font-size: $fz30;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+    margin-bottom: 40px;
+  }
+  &__par{
+    font-size: $fz14;
+    line-height: 24px;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+  }
+}
+.newsletter{
+  text-align: center;
+  background-color: $background;
+  padding: 70px 0;
+  margin-top: 125px 0;
+  &__heading{
+    font-size: $fz30;
+    letter-spacing: 1px;
+    color: $newsletter;
+    font-weight: 400;
+    font-family: $ff;
+    margin-bottom: 80px;
+  }
+  &__form{
+    margin: 0 auto;
+    width: 400px;
+    border-bottom: 1px solid $newsletter;
+  }
+  &__input{
+    border: none;
+    outline: none;
+    background-color: $background;
+    padding: 5px;
+    margin-right: 160px;
+
+    font-size: $fz14;
+    line-height: 24px;
+    color: $menu;
+    font-weight: 400;
+    font-family:$ff;
+  }
+  &__button{
+    font-size: $fz14;
+    letter-spacing: 1px;
+    color: $menu;
+    font-weight: 400;
+    font-family: $ff;
+    padding: 5px;
+    border: none;
+  }
+}
